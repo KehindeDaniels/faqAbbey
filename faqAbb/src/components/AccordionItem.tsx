@@ -14,9 +14,9 @@ const AccordionItem = ({
   onClick,
 }: AccordionProps) => {
   return (
-    <div className="border-b border-gray-200">
+    <div className="bg-[#F0F0F0] p-4 rounded-lg">
       <button
-        className="w-full text-left py-4 flex justify-between items-center"
+        className="w-full text-left px-4 py-2  flex justify-between items-center"
         onClick={onClick}
       >
         <span className="text-lg font-medium">{question}</span>

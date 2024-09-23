@@ -11,7 +11,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className=" w-full mx-auto  flex flex-col gap-4">
       {faqs.map((faq, index) => (
         <AccordionItem
           key={index}

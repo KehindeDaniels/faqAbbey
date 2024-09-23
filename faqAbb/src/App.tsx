@@ -1,10 +1,14 @@
-import Accordion from "./components/Accordion";
+import NavBar from "./components/NavbBar";
+import FaqQuestion from "./components/FaqQuestion";
+import FaqHero from "./components/FaqHero";
 
 function App() {
   return (
     <>
       <div className="">
-        <Accordion />
+        <NavBar />
+        <FaqHero />
+        <FaqQuestion />
       </div>
     </>
   );
